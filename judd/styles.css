@@ -1,0 +1,41 @@
+@font-face{
+font-family: "sabon";
+src: url("fonts/SabonLTStd-Italic.woff") format("woff");
+}
+
+body, p, h1 {
+margin: 0;
+padding: 0;
+}
+
+h1 {
+font-family: helvetica, sans-serif;
+font-size: 17.8vw;
+letter-spacing: -1vw;
+text-align: left;
+
+}
+
+.body-text {
+font-family: "sabon";
+font-size: 30px;
+max-width: 800px;
+letter-spacing: .1px;
+display: inline-block;
+text-align: left;
+line-height: 1.1;
+margin: 40px;
+margin: 40px,
+
+}
+
+@media only screen and (max-width: 600px){
+
+.body-text {
+font-size: 18px;
+letter-spacing: 0px;
+
+}
+}
+
+
