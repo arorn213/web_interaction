@@ -1,0 +1,41 @@
+ 
+   body {
+background:white;
+}
+
+.countdownContainer{
+   position: absolute;;
+   top: 50%;
+   left: 50%
+   transform: translateX(-50%) translateY(-50%);
+   text-align: center; 
+   padding:10px;
+  font-size: 10vw;
+  display: flex;
+  font-family: 'Work Sans';
+  animation-name: animation-one;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+   }
+
+.info {
+font-size: 100px;
+padding:10px;
+
+
+
+}
+
+.list{
+font-size: 30px;
+font-weight: 100px;
+
+}
+
+@keyframes animation-one {
+  0% { color: #f5ad8c; }
+  25% { color: lightblue; }
+  50% { color: lightgray; }
+  75% { color: lightblue; }
+  100% { color: #f5ad8c; }
+
