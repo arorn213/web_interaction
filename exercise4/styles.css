@@ -5,12 +5,12 @@ background:white;
 
 .countdownContainer{
    position: absolute;;
-   top: 50%;
-   left: 50%
+   top: 20%;
+   left: 10%
    transform: translateX(-50%) translateY(-50%);
    text-align: center; 
    padding:10px;
-  font-size: 10vw;
+  font-size: 20px;
   display: flex;
   font-family: 'Work Sans';
   animation-name: animation-one;
@@ -19,7 +19,7 @@ background:white;
    }
 
 .info {
-font-size: 100px;
+font-size: 50px;
 padding:10px;
 
 
