@@ -6,7 +6,6 @@ html {
 	color: Grey;
 	background: white;
 }
-
 body {
 	width: 2000px;
 	margin: 0 auto;
@@ -47,7 +46,7 @@ h1 {
 	font-size: 4rem;
 }
 h2 {
-    font-family: 'Work Sans', sans-serif;
+
 	text-align: right;
 	font-size: 1rem;
 	
@@ -65,5 +64,3 @@ p {
 	text-align: right;
 	font-size: .9rem;
 }
-
-

@@ -1,6 +1,8 @@
  
    body {
+   
 background:white;
+ transition:all 0.3s ease;
 }
 
 .countdownContainer{
@@ -31,6 +33,21 @@ font-size: 30px;
 font-weight: 100px;
 
 }
+
+.rotate {
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(-50deg);
+  }
+  to {
+    transform: rotate(50deg);
+  }
+}
+
+
 
 @keyframes animation-one {
   0% { color: #f5ad8c; }

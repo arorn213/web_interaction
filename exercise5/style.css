@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  background: white;
+}
+
+h2 {
+  font-family: 'Lato';
+  color: #214273;
+}
+
+h3 {
+font-family: 'Lato';
+font-size: 30px;
+}
+
+.container {
+  display: flex;
+  width: 2500px;
+  height: 2500px;
+}
+
+
+footer {
+  display:inline-flex;
+  flex-direction: column;
+  column-count: 1;
+  justify-content:space-around;
+  height: 1500px;
+  width: 600px;
+  padding-left: 50px;
+  background-color: white;
+
+}
+
+#info {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80vw;
+height: 100vh;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+#logo {
+  position: center;
+  font-size: 150px;
+ 
+}
+
+
+#color {
+  margin-top:50px;
+  display: flex;
+  width: 215px;
+}
+
+
+input[type=radio   ] {
+  display: none;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.button span {
+  display: block;
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.blue .button span {
+  background: #214273;
+}
+
+.green .button span {
+  background: #00A572;
+}
+
+.grey .button span {
+  background: #39393A;
+}
+
+
+.blue input:checked {
+  background: #214273;
+}
+
+.green input:checked {
+  background: #00A572;
+}
+
+.grey input:checked  {
+  background: #39393A;
+}
+
+
+#glider {
+    width: 250px;
+    margin-top: 20px;
+}
+
+
+select {
+
+  border-radius: 10;
+  width: 250px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Exercise 5</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <footer>
+        <div class="color">
+          <h3>Color</h3>
+          <form id="color">
+            <label class="blue">
+              <input type="radio" name="color" value="blue" id="blue" onclick="fillBlue()" />
+              <div class="button"><span></span></div>
+            </label>
+
+            <label class="green">
+              <input type="radio" name="color" value="green" id="green" onclick="fillGreen()" />
+              <div class="button"><span></span></div>
+            </label>
+
+            <label class="grey">
+              <input type="radio" name="color" value="grey" id="grey" onclick="fillGrey()" />
+              <div class="button"><span></span></div>
+            </label>
+
+    
+          </form>
+        </div>
+        <div class="font">
+          <h3>Font</h3>
+          <select id="changefonts" onchange="fontFunction()">
+          <option value="Lato"> Lato </option>
+          <option value="Roboto"> Roboto </option>
+          <option value="Work Sans"> Work Sans </option>
+
+    
+
+
+          </select>
+        </div>
+
+        <div class="spacing">
+          <h3>Spacing</h3>
+
+            <input
+            type="range"
+            min="-15"
+            max="15"
+            name="glider"
+            id="glider"
+            oninput="spacingFunction()"
+        </div>
+
+    
+      </footer>
+
+      <div id="info">
+      <img src="n2.jpg" width="90" height="115">
+      <h2 id="logo">aman Polymers</h2>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
