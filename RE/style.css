@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Work+sans:400,500,700,900&display=swap');
+body {
+	font-family: 'Work+sans', sans-serif;
+  padding: 5em 5em;
+  font-size: 200px;
+  text-align:center;
+  background: #222;
+  color: #aaa
+   text-align:center;
+}
+
+h2 {
+    text-align:center;
+	color: #EF4F24;
+	font-size: 2em;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+h2>span {
+	color:darkgrey;
+}
+
+
+
+
+
