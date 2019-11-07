@@ -1,0 +1,66 @@
+html {
+	color: #000;
+	font-size: 20px;
+	letter-spacing: .30em;
+	font-family: 'Work Sans', serif; 
+	color: Grey;
+	background: white;
+}
+body {
+	width: 2000px;
+	margin: 0 auto;
+}
+
+
+div {
+ 
+	line-height: 4.5em;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0; 
+	font-family: 'Work Sans', sans-serif;
+	position: fixed;
+	z-index:1;
+}
+
+
+
+div a{
+	color:black;
+
+}
+
+
+h1, h2 {
+	text-align: right;
+
+}
+
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    	font-size: 1rem;
+	font-weight: bold;
+	text-align:right;
+	font-size: 4rem;
+}
+h2 {
+
+	text-align: right;
+	font-size: 1rem;
+	
+}
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	text-align: left;
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.4em;
+	font-family: 'Work Sans', sans-serif;
+	text-align: right;
+	font-size: .9rem;
+}

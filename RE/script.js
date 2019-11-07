@@ -37,7 +37,7 @@ txtRotate.prototype.tick = function() {
     setTimeout(function() {
         that.tick();
     }, delta);
-};
+};5
 
 window.onload = function() {
     var elements = document.getElementsByClassName('txt-rotate');
@@ -53,3 +53,15 @@ window.onload = function() {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #000; padding: 0 10px; }";
     document.body.appendChild(css);
 };
+
+$(document).ready(function() {
+
+  var images = [ 'flood.png', 'earthquake.png', 'smog.png', 'drought.png' ];
+  
+  var random = Math.floor(Math.random() * images.length);
+
+  $('body').css('background-image', 'url(' + images[random] + ')');
+});
+
+
+

@@ -1,26 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Work+sans:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Helvetica:400,500,700,900&display=swap');
 body {
-	font-family: 'Work+sans', sans-serif;
-  padding: 5em 5em;
-  font-size: 200px;
-  text-align:center;
+font-family: 'Helvetica', sans serif;
+  padding: .5em .5em;
+  font-size: 80px;
+  text-align: justify;
   background: #222;
-  color: #aaa
-   text-align:center;
+  color:orangered;
+  background-size: cover;
+ 
+}
+
+
+
+h1 {
+    text-align:center;
+	color: orangered;
+	font-size: 4em;
+	font-weight: 400;
+	letter-spacing: -5px;
 }
 
 h2 {
     text-align:center;
-	color: #EF4F24;
+	color: orangered;
 	font-size: 2em;
 	font-weight: 400;
-	letter-spacing: -1px;
+	letter-spacing: -5px;
+}
+
+
+
+
+
+
+h1>span {
+	color:lightgray;
 }
 
 h2>span {
-	color:darkgrey;
+	color:lightgray;
 }
-
 
 
 
