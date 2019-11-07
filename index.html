@@ -1,77 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Nihaarika's Class Site</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <head>
+    <title>Time to happy hour</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+ <style>
+ 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-	</head>
 
+}
+
+.rotate {
+position: absolute;
+top: 56vh;
+left: 35vw;
+
+}
+
+</style>
+</head>
 <body>
-<h1>web<br> 
-interaction <br></h1>
-<h2>NIHAARIKA ARORA </a></h2> 
-			
 
-<div>
-<ul> EXERCISES <br>
-
-<a href="exercise1/pasta.html">Week 1</a> <br>
+<img src="Bellini.png" class="rotate" width="150" height="150" >
+<img src="frame.jpg" style="width:100%;">
 
 
 
-<a href="exercise2/index.html">Week 2</a> <br>
 
 
 
-<a href="exercise3/index.html">Week 3</a> <br>
 
 
-<a href="exercise4/index.html">Week 4</a> <br>
+    <table class="countdownContainer">
+    <tr class="info"> 
+    <td colspan="4"> 
+    
+    <em> REFORM Los Angeles Showroom </em> <br>
+   
+
+</td>
+    </tr>
+        <tr class="info"> 
+        <td id="days">80</td>
+        <td id="hours">12</td>
+        <td id="minutes">11</td>
+        <td id="seconds">25</td>
+    </tr>
+    <tr class="list">
+   <td>Days</td>
+     <td>Hours</td>
+      <td>Minutes</td>
+       <td>Seconds</td>
+       </tr>
+       </table>
+       
+  
+       
+    
+       <script type="text/javascript">
+       
+       function countdown(){
+       var now = new Date();
+       var eventDate = new Date(2019, 11, 16);
+       
+       var currentTime = now.getTime();
+       var eventTime = eventDate.getTime();
+       
+       var remTime = eventTime - currentTime;
+       
+       var s = Math.floor(remTime / 1000);
+       var m = Math.floor(s / 60);
+       var h = Math.floor(m / 60);
+       var d = Math.floor(h / 24);
+       
+       h %= 24;
+       m %= 60;
+       s %= 60;
+       
+       h = (h < 10) ? "0" + h : h;
+       m = (m < 10) ? "0" + m : m;
+       s = (s < 10) ? "0" + s : s;
+         
+         document.getElementById("days").textContent = d;
+         document.getElementById("days").innerText = d;
+         
+             document.getElementById("hours").textContent = h;
+             document.getElementById("minutes").textContent = m;
+             document.getElementById("seconds").textContent = s;
+
+         setTimeout(countdown, 1000);
+         
+        
+       }
+       
+       countdown();
+       
 
 
-<a href="exercise5/index.html">Week 5</a> <br>
-
-<a href="RE/index.html">RE</a> <br>
 
 
 
-</ul>
-
-
-
-</ul>
-
-<ul>READINGS <br>
-
-<a href="reading1/reading1.html">Reading 1</a> <br>
-
-	
-
-<a href="reading2/reading2.html">Reading 2</a> <br>
-
-
-
-<a href="reading3/reading3.html">Reading 3</a> <br>
-
-
-
-<a href="reading4/reading4.html">Reading 4</a> <br>
-
-
-<a href="reading5/reading5.html">Reading 5</a> <br>
-
-
-<a href="reading6/reading6.html">Reading 6</a> <br>
-
-
-	
-	
-	</div>
-</ul>
-
-</body>
+       
+       </script>
+   
+    </body>
+  
 </html>
-
-
