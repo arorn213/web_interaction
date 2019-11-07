@@ -40,10 +40,10 @@ font-weight: 100px;
 
 @keyframes rotation {
   from {
-    transform: rotate(-50deg);
+    transform: rotate(-15deg);
   }
   to {
-    transform: rotate(50deg);
+    transform: rotate(15deg);
   }
 }
 
