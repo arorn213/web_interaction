@@ -13,7 +13,14 @@ transition: background-color 1s ease;
 .main{
 position:center;
 }
+#off {
+pointer-events: none;
+}
 
+svg {
+pointer-events: none;
+
+}
 .off{
 
     margin-bottom: 42px;
@@ -26,7 +33,7 @@ position:center;
     height: 120px;
     position: inherit;
     margin-left: calc(50% - 60px);
-        margin-bottom: calc(50vh - 0px);
+        margin-bottom: calc(50vh - 10px);
         margin-top:500px;
 
     bottom: 50%;
@@ -40,7 +47,10 @@ position:center;
 
 #container { margin: 0%; }
 
-#circle { position: fixed; width: 90%; padding-bottom: 100%; overflow: hidden;}
+#circle { position: fixed;
+
+z-index: -1;
+ width: 90%; padding-bottom: 100%; overflow: hidden;}
 
 #circle text { font-family: 'Avenir next', serif; font-size: 17px; font-weight: regular; letter-spacing: 1.5px;  }
 
